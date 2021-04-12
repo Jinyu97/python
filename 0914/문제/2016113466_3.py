@@ -1,0 +1,15 @@
+y=int(input())
+x=y+914
+a=x//10000
+x%=10000
+print(a)
+a=x//1000
+x%=1000
+print(a)
+a=x//100
+x%=100
+print(a)
+a=x//10
+x%=10
+print(a)
+print(x)
